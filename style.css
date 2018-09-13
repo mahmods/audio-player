@@ -1,15 +1,12 @@
 body {
-    background-color: #333D43;
-}
-
-img {
-    cursor: pointer;
+    background-color: #fff;
 }
 
 .container {
+    cursor: pointer;
     position: relative;
-    width: 50%;
-    margin: 10px;
+    width: 40%;
+    margin: 20px;
 }
 
 .container {
@@ -54,6 +51,12 @@ img {
   color: #F4F4F4;
   font-size: 16px;
   padding: 14px 24px;
+}
+
+.track__artwork {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
 }
 /*-----------------------
     Audio Player - AP
