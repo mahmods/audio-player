@@ -25,7 +25,7 @@ function playToggle() {
     }
   }
 
-  $('img').on("click", function () {
+  $('.container').on("click", function () {
     $('.track__title').html($(this).data('song'));
     audio.src = $(this).data('song');
     playBtn.classList.add('is-playing');

@@ -9,9 +9,29 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
-    <img data-song="SCORPIO_2.MP3" src="prod_img_42293_236x236^70+1536664678.jpg" alt="">
-    <img data-song="TOO_GOOD.MP3" src="prod_img_42299_236x236^70+1536745414.jpg" alt="">
-    <div class="ap" id="ap">
+    <div style="display:flex; width:50%" >
+        <div class="container" data-song="SCORPIO_2.MP3">
+            <img data-song="SCORPIO_2.MP3" src="prod_img_42293_236x236^70+1536664678.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+                <div class="text" style="cursor:pointer;">
+                    <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#F4F4F4" width="50" height="50" viewBox="0 0 36 36" data-play="M 12,26 18.5,22 18.5,14 12,10 z M 18.5,22 25,18 25,18 18.5,14 z" data-pause="M 12,26 16.33,26 16.33,10 12,10 z M 20.66,26 25,26 25,10 20.66,10 z">
+                        <path d="M 12,26 18.5,22 18.5,14 12,10 z M 18.5,22 25,18 25,18 18.5,14 z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="container" data-song="TOO_GOOD.MP3">
+            <img data-song="TOO_GOOD.MP3" src="prod_img_42299_236x236^70+1536745414.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+                <div class="text" style="cursor:pointer;">
+                    <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#F4F4F4" width="50" height="50" viewBox="0 0 36 36" data-play="M 12,26 18.5,22 18.5,14 12,10 z M 18.5,22 25,18 25,18 18.5,14 z" data-pause="M 12,26 16.33,26 16.33,10 12,10 z M 20.66,26 25,26 25,10 20.66,10 z">
+                        <path d="M 12,26 18.5,22 18.5,14 12,10 z M 18.5,22 25,18 25,18 18.5,14 z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="ap" id="ap">
         <div class="ap__inner">
             <div class="ap__item ap__item--playback">
               <button class="ap__controls ap__controls--toggle">
